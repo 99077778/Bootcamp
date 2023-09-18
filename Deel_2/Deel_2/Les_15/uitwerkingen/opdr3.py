@@ -52,5 +52,6 @@ def get_letter(prompt):
         if len(letter) == 1 and letter.isalpha():
             return letter.upper()
         else:
-            print("Ongeldige invoer. Voer precies één letter van het alfabet in.")
+            print("Ongeldige invoer. Vul 1 letter in.")
+
 
